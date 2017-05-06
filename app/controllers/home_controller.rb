@@ -26,8 +26,8 @@ class HomeController < ApplicationController
   			end
 		end
 
-		result111 = `python public/temp.py /home/neeraj/Profile_View_3D/public/dataset.csv`
-		puts "..result111.777..", result111.class
+		# result111 = `python public/temp.py /home/neeraj/Profile_View_3D/public/dataset.csv`
+		# puts "..result111.777..", result111.class
 
 	end
 
