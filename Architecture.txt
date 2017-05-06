@@ -72,6 +72,87 @@ Work gap [ >2 ]
 Education gap [ >2 ]
 
 
+----------------------------------------------------------------------------------------------------
+Training Dataset 90
+30 in each suitabilty category
 
-Dataset 90
-30 in each
+----------------------------------------------------------------------------------------------------
+Actual test dataset for this posting:
+<to decide>
+
+----------------------------------------------------------------------------------------------------
+
+Two job postings for demo will consider:
+
+Software Engineer -Java
+
+Experience developing high quality Java code.
+Experience in Spring with Hibernate.
+Experience in source control repositories (git/svn).
+Experience in developing and consuming web services (RESTful , etc.).
+Experience in relational database system (MS-SQL Server, MySQL , etc.).
+Knowledge of HTML5/CSS3/JavaScript/jQuery.
+Understanding of file structures (XML, JSON, flat file, etc.)
+
+-----------------------------------------------------------------------------------------------------
+Senior Software Test Engineer
+
+Person should have very good hands on experience on Selenium. 
+
+Person should have some experience on overall Selenium framework as well so that he is aware how the entire test automation process work on top of Selenium. 
+
+Experience on Protractor test would be a plus. 
+
+End to end automation experience. 
+
+Person shoud be flexible to jump to do manual testing on need basis. 
+
+Person may also need to guide junior manual QA. 
+
+-----------------------------------------------------------------------------------------------------
+SQL Server DBA
+
+
+Position- SQL Server DBA
+
+Experience- 5 to 7 Years
+
+Job Location - Pune
+
+ 
+
+Key responsibilities
+
+ 
+
+    Oversees all production and non-production databases
+    Responsible for standards and design of physical data storage, maintenance, access and security administration
+    Responsible for the day-to-day administration, technical support, troubleshooting, maintenance, upgrades, patching, performance and overall health of Microsoft SQL database infrastructure
+    creating/opening the databases with system users to access the databases with security permissions at the instance level; and maintaining the database versions to the latest updates and database server patches
+    Troubleshoot database incidents based on reviewing of error/event logs, default trace and change logs
+    Provide a well-planned backup and restore strategy which helps protect databases against data loss; defines data repository requirements, data dictionaries and warehousing requirements
+    Monitors database growth through data, log file and disk monitoring; Also, optimizes database access and allocates/re-allocates database resources for optimum configuration, database performance and cost
+    Improve the performance of the database through direct checks, fixes, enhancements and by assisting in reorganizing/rebuilding index the databases
+    Check the memory, disk, CPU, deadlock, database settings, max server memory settings, to ensure proper database maintenance
+    Perform the Database Cloning on Test or Dev environments in case of any DB errors
+    Meet with key stakeholders and follow up with action items for any workarounds necessary as per the nature of the incidents
+    Conduct internal team training to share knowledge with team members
+
+Key competencies
+
+    Expert in database design and experienced in defining/ recommending and maintaining database standards and architecture
+    Experience with database migration, installation .
+    Knowledge about SQL server 2016 , specially Always-On .
+    Experience in storage management techniques, database cloning, backup, and recovery strategies
+    Experience of designing capacity management strategy for DB tracks and designing server security
+    Strong knowledge on SQL Server administration and as analyst
+    Abreast of new changes and features of MS SQL server .
+
+Other skills and abilities
+
+    Ability to work in global distributed setting without supervision
+    Self-driven, Proactive, Systems Thinking
+    Excellent communication skills & ability to present to large groups
+    Works well with all personality types
+    Fluent in English and a confident speaker
+------------------------------------------------------------------------------------------------------
