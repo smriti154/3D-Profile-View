@@ -52,9 +52,9 @@ group :development do
 end
 
 group :development, :test do
-  gem 'pg', '~> 0.15'
+  gem 'pg'
 end
 
 group :production do
-  gem 'pg', '~> 0.15'
+  gem 'pg'
 end
