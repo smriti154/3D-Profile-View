@@ -26,7 +26,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'httparty'
 
-gem 'pg', '~> 0.15'
 
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
@@ -52,6 +51,10 @@ group :development do
   gem 'spring'
 end
 
+group :development, :test do
+  gem 'pg', '~> 0.15'
+end
+
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.15'
 end
