@@ -15,9 +15,9 @@ class HomeController < ApplicationController
 
 		  # @response4 = HTTParty.get('https://twitter.com/smriti')
 		  job_posting = 'Senior Software Test Engineer Person should have very good hands on experience on Selenium. Person should have some experience on overall Selenium framework as well so that he is aware how the entire test automation process work on top of Selenium. Experience on Protractor test would be a plus. End to end automation experience. Person shoud be flexible to jump to do manual testing on need basis. Person may also need to guide junior manual QA.'
-		  # result = `python public/temp.py #{job_posting}`
-		  # puts ".....", result
-          # render :text => result
+		  result = `python public/temp.py`
+		  puts ".....", result
+          render :text => result
           @candidate = Candidate.find_by id: '12'
           puts "..............", @candidate.inspect
   		CSV.open("public/dataset.csv", "w") do |csv| #open new file for write
@@ -25,6 +25,13 @@ class HomeController < ApplicationController
     	 		csv << hash.values
   			end
 		end
+
+		
+		# RubyPython.start
+		# my_python_module = RubyPython.import('public/temp.py')
+		# value = my_python_module.my_python_function().rubify
+		puts "..........", my_python_module
+		# RubyPython.stop
 
 		# result111 = `python public/temp.py /home/neeraj/Profile_View_3D/public/dataset.csv`
 		# puts "..result111.777..", result111.class
