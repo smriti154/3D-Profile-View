@@ -1,0 +1,77 @@
+Name
+HIghest degree
+Specialization
+Marks(in %)
+Total experience
+Work summary
+Work gap
+Education gap
+Mobile
+Linkedin
+Stackoverflow
+Github
+Attach cv
+
+
+1st filter:
+Work summary
+
+2nd filter:
+Dependent variable:
+Suitability
+1) High
+2) Moderate
+3) Low
+
+
+Independent variable:
+
+Highest degree
+Specialization
+Marks(in %)
+Total experience
+Work gap
+Education gap
+
+Allowed values:
+HIGHESTDEGREE = ['Select', 'Not Pursuing Graduation', 'B.Sc', 'B.Tech/B.E', 'Diploma', 'M.Tech', 'Other']  
+
+SPECIALIZATION = ['Select', 'Agriculture', 'Automobile', 'Aviation', 'Bio-Chemistry/Bio-Technology', 'Biomedical', 'Ceramics', 'Chemical', 'Civil', 'Computers ', 'Electrical', 'Electronics/Telecommunication', 'Energy', 'Environmental', 'Instrumentation', 'Marine', 'Mechanical', 'Metallurgy', 'Mineral', 'Mining', 'Nuclear' , 'Paint/Oil', 'Petroleum' , 'Plastics', 'Production/Industrial', 'Textile',  'Other Engineering', 'Other' ]
+
+Criteria for suitability:
+
+High:
+
+Highest degree = ['B.Tech/B.E', 'M.tech', 'Diploma']
+Specialization = ['Computers']
+Marks(in %) = [ >65% ]
+Total experience [ >4 ]
+Work gap [ 0 ]
+Education gap [ 1 ]
+
+
+
+Moderate:
+
+Highest degree = ['B.Sc', 'Diploma']
+Specialization = ['Electronics/Telecommunication', 'Electrical', 'Mechanical']
+Marks(in %) = [ >55% && <65% ]
+Total experience = [ >2 && <4 ]
+Work gap [ >0 && <2 ]
+Education gap [ >1 && <2 ]
+
+
+
+Low:
+
+Highest degree = ['Other']
+Specialization = ['Other Engineering', 'Other' ]
+Marks(in %) = [ <55% ]
+Total experience = [ <2 ]
+Work gap [ >2 ]
+Education gap [ >2 ]
+
+
+
+Dataset 90
+30 in each

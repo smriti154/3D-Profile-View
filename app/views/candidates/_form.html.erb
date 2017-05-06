@@ -1,0 +1,71 @@
+<%= form_for @candidate , :html => { :multipart => true } do |f| %>
+  <% if @candidate.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@candidate.errors.count, "error") %> prohibited this candidate from being saved:</h2>
+
+      <ul>
+      <% @candidate.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :highest_degree %><br>
+    <%= f.select :highest_degree, Candidate::HIGHESTDEGREE %>
+  </div>
+  <div class="field">
+    <%= f.label :specialization %><br>
+    <%= f.select :specialization, Candidate::SPECIALIZATION %>
+  </div>
+  <div class="field">
+    <%= f.label :marks %><br>
+    <%= f.number_field :marks %>
+  </div>
+  <div class="field">
+    <%= f.label :total_experience %><br>
+    <%= f.number_field :total_experience %>
+  </div>
+  <div class="field">
+    <%= f.label :work_summary %><br>
+    <%= f.text_field :work_summary %>
+  </div>
+  <div class="field">
+    <%= f.label :work_gap %><br>
+    <%= f.number_field :work_gap %>
+  </div>
+  <div class="field">
+    <%= f.label :education_gap %><br>
+    <%= f.number_field :education_gap %>
+  </div>
+  <div class="field">
+    <%= f.label :mobile %><br>
+    <%= f.text_field :mobile %>
+  </div>
+  <div class="field">
+    <%= f.label :linkedin %><br>
+    <%= f.text_field :linkedin %>
+  </div>
+  <div class="field">
+    <%= f.label :stackoverflow %><br>
+    <%= f.text_field :stackoverflow %>
+  </div>
+  <div class="field">
+    <%= f.label :github %><br>
+    <%= f.text_field :github %>
+  </div>
+  <div class="field">
+    <%= f.label :upload_CV %><br>
+    <%= f.file_field :cv %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+

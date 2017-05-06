@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  highest_degree: MyString
+  specialization: MyString
+  marks: 1
+  total_experience: 1
+  work_summary: MyString
+  work_gap: 1
+  education_gap: 1
+  mobile: 1
+  linkedin: 
+  stackoverflow: 
+  github: 
+
+two:
+  name: MyString
+  highest_degree: MyString
+  specialization: MyString
+  marks: 1
+  total_experience: 1
+  work_summary: MyString
+  work_gap: 1
+  education_gap: 1
+  mobile: 1
+  linkedin: 
+  stackoverflow: 
+  github: 

@@ -1,0 +1,23 @@
+.field { 
+    width:30%;
+}
+.field .form-control {
+    border-left:none;
+}
+.input-group-addon {
+    background-color:#fff;
+    border-right:none;
+}
+
+.iframe1 {
+  position: absolute;
+  height: 406px;
+  width: 406px;
+  padding: 3px;
+  background-color: rgba(50, 50, 50, 0.7);
+  font-size: 27px;
+  line-height: 1em;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
