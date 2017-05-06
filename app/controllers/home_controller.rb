@@ -15,8 +15,8 @@ class HomeController < ApplicationController
 
 		  # @response4 = HTTParty.get('https://twitter.com/smriti')
 		  # job_posting = 'Senior Software Test Engineer Person should have very good hands on experience on Selenium. Person should have some experience on overall Selenium framework as well so that he is aware how the entire test automation process work on top of Selenium. Experience on Protractor test would be a plus. End to end automation experience. Person shoud be flexible to jump to do manual testing on need basis. Person may also need to guide junior manual QA.'
-		  # result = `python public/temp.py`
-		  # puts ".....", result
+		  @result = `python public/temp.py`
+		  puts ".....", @result
           # render :text => result
   #         @candidate = Candidate.find_by id: '12'
   #         puts "..............", @candidate.inspect

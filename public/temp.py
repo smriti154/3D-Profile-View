@@ -6,3 +6,8 @@ This is a temporary script file.
 """
 
 print("This line will be printed.")
+
+import sys
+
+
+import pandas as pd
